@@ -49,8 +49,6 @@ The following picture is our engine architecture.
 
 The front end provides the user location to the unity. With that information, unity can display the map and user avatar with the GO Map. Moreover, the front end provides the voice input, then Recognissimo will transfer it into a string in unity that acts as skill commands. The back end provides the enemy location to the unity, and with the scene captured by the phone's camera, AR+GPS location API will generate a game scene with the enemy in the real-time scene. And now the player is ready to play!
 
-
-
 ### APIs and Controller
 
 We use Unity as our game engine. The front end will provide three pieces of information to the engine: user location, the scene captured by the camera, and the voice input. GO Map, AR+GPS location, and Recognissimo are downloaded from the unity asset store. They are packed perfectly and can communicate with the unity game engine automatically.
